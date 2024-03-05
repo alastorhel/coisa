@@ -4,14 +4,22 @@
              x:Class="coisas.MainPage"
              Shell.NavBarIsVisible="false">
 
+           
+  
  <Grid>
     <Grid.RowDefinitions>
       <RowDefinition Height="*"/>
-      <RowDefinition Height="60"/>
-      <RowDefinition Height="60"/>
-      <RowDefinition Height="60"/>
-      <RowDefinition Height="60"/>
+      <RowDefinition Height="20"/>
+      <RowDefinition Height="20"/>
+      <RowDefinition Height="20"/>
+      <RowDefinition Height="20"/>
     </Grid.RowDefinitions>
+
+          <Image Source="fundao.png"
+                 Aspect="AspectFill"/>
+
+
+
     </Grid>
     
       
