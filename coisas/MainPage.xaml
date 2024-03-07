@@ -11,39 +11,51 @@
  <Grid>
     <Grid.RowDefinitions>
       <RowDefinition Height="*"/>
-      <RowDefinition Height="20"/>
-      <RowDefinition Height="20"/>
-      <RowDefinition Height="20"/>
-      <RowDefinition Height="20"/>
+      <RowDefinition Height="0"/>
+      <RowDefinition Height="0"/>
+      <RowDefinition Height="0"/>
+      <RowDefinition Height="0"/>
     </Grid.RowDefinitions>
 
-          <Image Source="fundao.png"
-                 Aspect="AspectFill"
-                 Margin="0,0,0,100"/>
+<Image Source="fundao.png"
+       Aspect="AspectFill"
+       Margin="0,0,0,100"/>
 
-          <Button Text="INICIO"
-                  FontFamily="game punk"
-                  Clicked="Clicarnobotão"
-                  HeightRequest="60"
-                  Margin="0,250,0,0"/>
+<Button Text="INICIO"
+       FontFamily="game punk"
+       Clicked="clicarnobotaoinicio"
+       HeightRequest="60"
+       Margin="0,250,0,0"
+       BackgroundColor="#8dfd89"/>
 
-           <Button Text="História"
-                  FontFamily="game punk"
-                  Clicked="Clicarnobotão"
-                  HeightRequest="60"
-                  Margin="0,400,0,0"/>
-
-
-           <Button Text="Sobre"
-                  FontFamily="game punk"
-                  Clicked="Clicarnobotao"
-                  HeightRequest="60"
-                  Margin="0,550,0,0"/>
+<Button Text="História"
+       FontFamily="game punk"
+       Clicked="Clicarnobotaoo"
+       HeightRequest="60"
+       Margin="0,400,0,0"
+       BackgroundColor="#8dfd89"/>
 
 
-   
+<Button Text="Produtores"
+       FontFamily="game punk"
+       Clicked="Clicarnobotao"
+       HeightRequest="60"
+       Margin="0,550,0,0"
+       BackgroundColor="#8dfd89"/>
+
+       <Frame x:Name="frameinicio"
+              IsVisible="false">
+
+   <Button Text="Voltar"
+                    FontFamily="game punk"
+                    Clicked="clicarnobotaovoltarinicio"
+                    Margin="0,550,0,0"
+                    HeightRequest="60"
+                    BackgroundColor="#8dfd89"/>
+
+       </Frame>
     </Grid>
     
-      
+     
     
 </ContentPage>

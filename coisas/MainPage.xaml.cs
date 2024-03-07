@@ -7,16 +7,24 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 	}
-	void Clicarnobotão(object sender, EventArgs args)
+	void Clicarnobotao(object sender, EventArgs args)
     {
-		Application.Current.MainPage = new GamePage();
+		//framebutton.IsVisible=true;
 	}
 
-    void Clicarnobotao(object sender, EventArgs args)
+    void clicarnobotaoinicio(object sender, EventArgs args)
 	{
-		Application.Current.MainPage = new GamePage();
+		 frameinicio.IsVisible=true;
 	}
-	
+	 void Clicarnobotaoo(object sender, EventArgs args)
+	{
+	//framebutton.IsVisible=true;
+	}
+	void clicarnobotaovoltarinicio(object sender, EventArgs args)
+    {
+		frameinicio.IsVisible=false;
+	}
+	  
 	
 
 }

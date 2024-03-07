@@ -7,6 +7,10 @@ public partial class GamePage : ContentPage
 	{
 		InitializeComponent();
 	}
+	void Clicarnobotaao(object sender, EventArgs args)
+    {
+		Application.Current.MainPage = new GamePage();
+	}
 	
 
 }
