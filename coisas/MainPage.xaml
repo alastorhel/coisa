@@ -11,15 +11,15 @@
  <Grid>
     <Grid.RowDefinitions>
       <RowDefinition Height="*"/>
-      <RowDefinition Height="0"/>
-      <RowDefinition Height="0"/>
-      <RowDefinition Height="0"/>
-      <RowDefinition Height="0"/>
+      <RowDefinition Height="10"/>
+      <RowDefinition Height="10"/>
+      <RowDefinition Height="10"/>
+      <RowDefinition Height="10"/>
     </Grid.RowDefinitions>
 
 <Image Source="fundao.png"
        Aspect="AspectFill"
-       Margin="0,0,0,100"/>
+       Margin="0,80,0,100"/>
 
 <Button Text="INICIO"
        FontFamily="game punk"
@@ -30,7 +30,7 @@
 
 <Button Text="História"
        FontFamily="game punk"
-       Clicked="Clicarnobotaoo"
+       Clicked="clicarnobotaohistoria"
        HeightRequest="60"
        Margin="0,400,0,0"
        BackgroundColor="#8dfd89"/>
@@ -38,7 +38,7 @@
 
 <Button Text="Produtores"
        FontFamily="game punk"
-       Clicked="Clicarnobotao"
+       Clicked="Clicarnobotaoprodutores"
        HeightRequest="60"
        Margin="0,550,0,0"
        BackgroundColor="#8dfd89"/>

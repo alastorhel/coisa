@@ -7,7 +7,7 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 	}
-	void Clicarnobotao(object sender, EventArgs args)
+	void Clicarnobotaoprodutores(object sender, EventArgs args)
     {
 		//framebutton.IsVisible=true;
 	}
@@ -16,9 +16,9 @@ public partial class MainPage : ContentPage
 	{
 		 frameinicio.IsVisible=true;
 	}
-	 void Clicarnobotaoo(object sender, EventArgs args)
+	 void clicarnobotaohistoria(object sender, EventArgs args)
 	{
-	//framebutton.IsVisible=true;
+	//framebutton.IsVisible=false;
 	}
 	void clicarnobotaovoltarinicio(object sender, EventArgs args)
     {
