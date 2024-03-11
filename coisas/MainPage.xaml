@@ -54,6 +54,21 @@
                     BackgroundColor="#8dfd89"/>
 
        </Frame>
+
+
+
+<Frame x:Name="framehistoria"
+              IsVisible="false">
+
+   <Button Text="Voltar"
+                    FontFamily="game punk"
+                    Clicked="clicarnobotaovoltarinicio"
+                    Margin="0,550,0,0"
+                    HeightRequest="60"
+                    BackgroundColor="#8dfd89"/>
+
+       </Frame>
+
     </Grid>
     
      

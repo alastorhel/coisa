@@ -18,7 +18,7 @@ public partial class MainPage : ContentPage
 	}
 	 void clicarnobotaohistoria(object sender, EventArgs args)
 	{
-	//framebutton.IsVisible=false;
+	    framehistoria.IsVisible=true;
 	}
 	void clicarnobotaovoltarinicio(object sender, EventArgs args)
     {
