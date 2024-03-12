@@ -3,14 +3,45 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="coisas.GamePage"
              Shell.NavBarIsVisible="false"
-             BackgroundColor="Blue">
+             BackgroundColor="black">
 
-               <Frame>     
+       
+        <Grid>
+         
 
-           
+            <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="10"/>
+      <RowDefinition Height="10"/>
+      <RowDefinition Height="10"/>
+    </Grid.RowDefinitions>
+
+      <Image Source="becoescuro.jpg"
+           Opacity=".6"
+           Aspect="AspectFill"/>
 
 
 
-       </Frame>
+    <Label Text="Cyber Punk"
+           TextColor="White"
+           Margin="100"
+           FontSize="30"
+           FontFamily="Papyrus"
+           HorizontalOptions="Center"
+           HorizontalTextAlignment="Center"
+           VerticalOptions="Center"
+           Grid.Row="1"/>
+
+    <Button Text="Voltar"
+                    FontFamily="game punk"
+                    Clicked="VoltarFoiClicado"
+                    Margin="0,400,0,0"
+                     HeightRequest="60"
+                    BackgroundColor="#8dfd89"
+                    Grid.Row="2"/>           
+        </Grid>
+
+
+    
              
 </ContentPage>

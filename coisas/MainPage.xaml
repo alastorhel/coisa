@@ -11,10 +11,10 @@
  <Grid>
     <Grid.RowDefinitions>
       <RowDefinition Height="*"/>
-      <RowDefinition Height="10"/>
-      <RowDefinition Height="10"/>
-      <RowDefinition Height="10"/>
-      <RowDefinition Height="10"/>
+      <RowDefinition Height="20"/>
+      <RowDefinition Height="20"/>
+      <RowDefinition Height="20"/>
+      <RowDefinition Height="30"/>
     </Grid.RowDefinitions>
 
 <Image Source="fundao.png"
@@ -56,19 +56,25 @@
        </Frame>
 
 
+        
 
-<Frame x:Name="framehistoria"
+       <Frame x:Name="framehistoria"
               IsVisible="false">
+     <VerticalStackLayout VerticalOptions="End">
+       
 
-   <Button Text="Voltar"
+   
+    <Button Text="Voltar"
                     FontFamily="game punk"
-                    Clicked="clicarnobotaovoltarinicio"
-                    Margin="0,550,0,0"
-                    HeightRequest="60"
+                    Clicked="clicarnobotaovoltarhistoria"
+                    Margin="0,0,0,0"
+                     HeightRequest="60"
                     BackgroundColor="#8dfd89"/>
 
-       </Frame>
+          </VerticalStackLayout>
 
+       </Frame>
+     
     </Grid>
     
      

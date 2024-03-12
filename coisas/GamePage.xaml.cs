@@ -11,7 +11,8 @@ public partial class GamePage : ContentPage
     {
 		Application.Current.MainPage = new GamePage();
 	}
-	
-
+	void VoltarFoiClicado(object sender, EventArgs args)
+    {
+		Application.Current.MainPage = new MainPage();
+	}
 }
-

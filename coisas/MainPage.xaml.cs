@@ -14,7 +14,9 @@ public partial class MainPage : ContentPage
 
     void clicarnobotaoinicio(object sender, EventArgs args)
 	{
-		 frameinicio.IsVisible=true;
+		 if (Application.Current != null)
+      Application.Current.MainPage = new GamePage();
+	  frameinicio.IsVisible=true;
 	}
 	 void clicarnobotaohistoria(object sender, EventArgs args)
 	{
@@ -25,6 +27,9 @@ public partial class MainPage : ContentPage
 		frameinicio.IsVisible=false;
 	}
 	  
-	
+	void clicarnobotaovoltarhistoria(object sender, EventArgs args)
+	{
+		framehistoria.IsVisible=false;
+	}
 
 }
