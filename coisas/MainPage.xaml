@@ -22,14 +22,18 @@
        Margin="0,80,0,100"/>
 
 <Button Text="INICIO"
-       FontFamily="game punk"
+       FontFamily="gamepunk"
+        FontSize="40"
+        TextColor="black"
        Clicked="clicarnobotaoinicio"
        HeightRequest="60"
        Margin="0,250,0,0"
        BackgroundColor="#8dfd89"/>
 
 <Button Text="História"
-       FontFamily="game punk"
+       FontFamily="gamepunk"
+       TextColor="black"
+        FontSize="40"
        Clicked="clicarnobotaohistoria"
        HeightRequest="60"
        Margin="0,400,0,0"
@@ -37,7 +41,9 @@
 
 
 <Button Text="Produtores"
-       FontFamily="game punk"
+       FontFamily="gamepunk"
+        FontSize="40"
+          TextColor="black"
        Clicked="Clicarnobotaoprodutores"
        HeightRequest="60"
        Margin="0,550,0,0"
@@ -47,7 +53,9 @@
               IsVisible="false">
 
    <Button Text="Voltar"
-                    FontFamily="game punk"
+                    FontFamily="gamepunk"
+                    FontSize="40"
+                      TextColor="black"
                     Clicked="clicarnobotaovoltarinicio"
                     Margin="0,550,0,0"
                     HeightRequest="60"

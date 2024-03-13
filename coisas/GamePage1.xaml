@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="coisas.GamePage"
+             x:Class="coisas.GamePage1"
              Shell.NavBarIsVisible="false"
              BackgroundColor="black">
 
@@ -11,19 +11,26 @@
 
             <Grid.RowDefinitions>
       <RowDefinition Height="*"/>
-      <RowDefinition Height="200"/>
+      <RowDefinition Height="150"/>
       <RowDefinition Height="50"/>
       <RowDefinition Height="50"/>
       <RowDefinition Height="50"/>
     </Grid.RowDefinitions>
 
       <Image Source="becoescuro.jpg"
-           Aspect="AspectFit"
+           Opacity=".6"
+           Aspect="AspectFill"
            VerticalOptions="Start"
            Margin="5,50,10,0"
             Grid.Row="0"/>
 
-    <Label Text="Em uma noite escura, voce se encontra em um beco pouco iluminado, quando derrepente começa a escutar alguns ruídos vindos de sua retaguarda. "
+        <Image Source="chloe.webp"
+                Aspect="AspectFill"
+                VerticalOptions="Start"
+                Grid.Row="0"/>
+                
+
+    <Label Text="Derepente surge das sombras uma silhueta diferente, uma famosa mercenaria que aparentava nao querer ferilo. "
            TextColor="White"
            BackgroundColor="#a53abd"
            FontSize="40"
@@ -36,7 +43,7 @@
            Grid.Row="1"/>
 
 
-        <Button Text="Próximo"
+        <Button Text=""
                 FontFamily="gamepunk"
                 TextColor="white"
                 FontSize="40"

@@ -12,7 +12,7 @@ public static class MauiProgram
 			.ConfigureFonts(fonts =>
 			{
 				
-				fonts.AddFont("game over.ttf","game punk");
+				fonts.AddFont("gameover.ttf","gamepunk");
 			});
 
 #if DEBUG
