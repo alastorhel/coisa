@@ -7,12 +7,9 @@ public partial class GamePage1 : ContentPage
 	{
 		InitializeComponent();
 	}
-	void Clicarnobotaao(object sender, EventArgs args)
-    {
-		Application.Current.MainPage = new GamePage();
-	}
+	
 	void ClicarVaiProximo(object sender, EventArgs args)
 	{
-         Application.Current.MainPage = new GamePage();
+         Application.Current.MainPage = new GamePage2();
 	}
 }

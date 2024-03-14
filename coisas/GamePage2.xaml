@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="coisas.GamePage2"
+             x:Class="coisas.GamePage1"
              Shell.NavBarIsVisible="false"
              BackgroundColor="black">
 
@@ -31,7 +31,7 @@
                 Grid.Row="0"/>
                 
 
-    <Label Text="O QUE VOCE FAZ?!"
+    <Label Text="De repente surge das sombras uma silhueta diferente, uma famosa mercenaria que aparentava nao querer ferilo. "
            TextColor="White"
            BackgroundColor="#a53abd"
            FontSize="40"
@@ -40,11 +40,11 @@
            HorizontalOptions="Fill"
            HorizontalTextAlignment="Center"
            VerticalOptions="Start"
-           HeightRequest="50"
+           HeightRequest="100"
            Grid.Row="1"/>
 
 
-        <Button Text="Ataca-la"
+        <Button Text="Próximo"
                 FontFamily="gamepunk"
                 TextColor="white"
                 FontSize="40"
