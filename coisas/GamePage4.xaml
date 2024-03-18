@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="coisas.GamePage4"
+             Shell.NavBarIsVisible="false"
+             BackgroundColor="black">
+
+       
+        <Grid>
+         
+
+            <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="150"/>
+      <RowDefinition Height="50"/>
+      <RowDefinition Height="50"/>
+      <RowDefinition Height="50"/>
+    </Grid.RowDefinitions>
+
+      <Image Source="erro.webp"
+           Opacity=".6"
+           Aspect="AspectFill"
+           VerticalOptions="Start"
+           Margin="5,50,10,0"
+            Grid.Row="0"/>
+                
+
+        </Grid>
+
+
+    
+             
+</ContentPage>

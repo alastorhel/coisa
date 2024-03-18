@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="coisas.MainPage1"
+             Shell.NavBarIsVisible="false"
+             BackgroundColor="Black">
+
+
+    
+
+     <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="150"/>
+      <RowDefinition Height="20"/>
+      <RowDefinition Height="20"/>
+      <RowDefinition Height="30"/>
+    </Grid.RowDefinitions>
+
+
+        <Frame x:Name="framehistoria"
+              IsVisible="false"
+                Margin="50,20"
+                 CornerRadius="20"
+                 BackgroundColor="#5527a0"
+                 HorizontalOptions="Fill"
+                 VerticalOptions="Fill">
+
+   
+    <Button Text="Voltar"
+                    FontFamily="game punk"
+                    Clicked="clicarnobotaovoltarhistoria"
+                     HeightRequest="60"
+                    BackgroundColor="#8dfd89"/>
+
+          
+
+       </Frame>
+     
+    </Grid>
+    
+     
+    
+</ContentPage>

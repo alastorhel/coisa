@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="coisas.GamePage3"
+             Shell.NavBarIsVisible="false"
+             BackgroundColor="black">
+
+       
+        <Grid>
+         
+
+            <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="150"/>
+      <RowDefinition Height="50"/>
+      <RowDefinition Height="50"/>
+      <RowDefinition Height="50"/>
+    </Grid.RowDefinitions>
+
+      <Image Source="error.webp"
+           Opacity=".9"
+           Aspect="AspectFill"
+           VerticalOptions="Start"
+           HeightRequest="330"
+           Margin="5,50,0,0"
+            Grid.Row="0"/>
+    
+        <Button Text="TENTE NOVAMENTE"
+                FontFamily="gamepunk"
+                TextColor="white"
+                FontSize="40"
+                Clicked="ClicarVaiProximo"
+              HeightRequest="60"
+              Margin="0,0,0,0"
+               BackgroundColor="#5527a0"
+                Grid.Row="3"/>
+
+        </Grid>
+
+
+    
+             
+</ContentPage>

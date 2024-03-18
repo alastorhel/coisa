@@ -10,6 +10,6 @@ public partial class GamePage2 : ContentPage
 	
 	void ClicarVaiProximo(object sender, EventArgs args)
 	{
-         Application.Current.MainPage = new GamePage();
+         Application.Current.MainPage = new GamePage3();
 	}
 }
