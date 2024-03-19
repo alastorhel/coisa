@@ -8,13 +8,10 @@ public partial class MainPage1 : ContentPage
 		InitializeComponent();
 	}
 
- void clicarnobotaohistoria(object sender, EventArgs args)
+    void Clicarnobotaovoltar(object sender, EventArgs args)
 	{
+		if (Application.Current != null)
+      Application.Current.MainPage = new MainPage();
 	    framehistoria.IsVisible=true;
 	}
-    	void clicarnobotaovoltarhistoria(object sender, EventArgs args)
-	{
-		framehistoria.IsVisible=false;
-	}
-
 }

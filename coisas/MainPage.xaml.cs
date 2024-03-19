@@ -20,6 +20,8 @@ public partial class MainPage : ContentPage
 	}
 	 void clicarnobotaohistoria(object sender, EventArgs args)
 	{
+		if (Application.Current != null)
+      Application.Current.MainPage = new MainPage1();
 	    framehistoria.IsVisible=true;
 	}
 	void clicarnobotaovoltarinicio(object sender, EventArgs args)
@@ -31,5 +33,10 @@ public partial class MainPage : ContentPage
 	{
 		framehistoria.IsVisible=false;
 	}
-
+	 void Clicarnobotaoparaprodutores(object sender, EventArgs args)
+	{
+		 if (Application.Current != null)
+      Application.Current.MainPage = new MainPage2();
+	  frameprodutores.IsVisible=true;
+	}
 }

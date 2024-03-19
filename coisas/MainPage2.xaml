@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="coisas.MainPage1"
+             x:Class="coisas.MainPage2"
              Shell.NavBarIsVisible="false"
              BackgroundColor="Black">
 
-         <Frame  x:Name="framehistoria"
+         <Frame  x:Name="frameprodutores"
                  IsVisible="True"
                 Margin="10,20"
                 CornerRadius="20"
@@ -17,38 +17,32 @@
      <Grid>
              <Grid.RowDefinitions>
           <RowDefinition Height="*"/>
-          <RowDefinition Height="*"/>
           <RowDefinition Height="80"/>
         </Grid.RowDefinitions>
 
 
 
-      <Image Source="cyberbum.webp"
-              Opacity=".9"
-           Aspect="AspectFit"
-           Grid.Row="0"/>
-
-      <Label Text="Em uma época muito a frente de seu tempo, foi inventado um chip com o propósito de aumentar o tempo de vida das pessoas, porém aconteceu um erro, a consciencia das pessoas começou a ficar corrompida e eles foram virando cyberpsycopatas e agora precisamos achar uma soluçao pra esse problema
-!!"
-           FontSize="40"
+      <Label Text="Os produtores foram: Amábily a escritora que dirigiu a história e Eduardo que fez a paste do código para produçao do desenvolvimento da história, a produçao foi terminada no dia 19/03/2024, esperamos que aprecie o nosso jogo ."
+           FontSize="80"
            TextColor="White"
            Opacity="0.9"
            FontFamily="gamepunk"
            HorizontalOptions="Fill"
            HorizontalTextAlignment="Center"
            VerticalOptions="Start"
-           Grid.Row="1"/>
+           Grid.Row="0"/>
+
     
          <Button Text="voltar"
                   FontFamily="gamepunk"
-                Clicked="Clicarnobotaovoltar"
+                Clicked="Clicarnobotaovoltarprodutores"
                 HeightRequest="50"
                 CornerRadius="25"
                 BackgroundColor="#8dfd89"
                 TextColor="Black"
                 Margin="5,50,0,0"
                 FontSize="40"
-                Grid.Row="2"/>
+                Grid.Row="3"/>
 
 
     </Grid>
